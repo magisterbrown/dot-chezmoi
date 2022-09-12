@@ -114,5 +114,6 @@ map <Space>f <Plug>(easymotion-f)
 map <Space>F <Plug>(easymotion-F)
 
 "Tag file serach"
-set tags=tags;/
+"set tags=$HOME/ctags/tags;/
+set tags=./tags;,tags,$HOME/ctags/tags
 set cpt-=t
