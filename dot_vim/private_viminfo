@@ -11,15 +11,73 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/net_electricity_consumption_price
+~MSle0~/lossMode
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1662995325,,"q"
+|2,0,1665867013,,"q"
+:Q
+|2,0,1665861279,,"Q"
 :wq
-|2,0,1662994927,,"wq"
+|2,0,1665854388,,"wq"
 :w
-|2,0,1662994823,,"w"
+|2,0,1665854359,,"w"
+:W
+|2,0,1665816581,,"W"
+:w:w
+|2,0,1665812830,,"w:w"
+:Wq
+|2,0,1665816692,,"Wq"
+:qa
+|2,0,1665813536,,"qa"
+:::w
+|2,0,1665813521,,"::w"
+:q!
+|2,0,1665767688,,"q!"
+:!pwd
+|2,0,1665656021,,"!pwd"
+:!ls submodules
+|2,0,1665261163,,"!ls submodules"
+:e
+|2,0,1665259793,,"e"
+:tabf ../../framework/include/framework/mesh.h
+|2,0,1663511596,,"tabf ../../framework/include/framework/mesh.h"
+:!ls ../..
+|2,0,1663511584,,"!ls ../.."
+:!ls ..
+|2,0,1663511575,,"!ls .."
+:'<,'>q
+|2,0,1663408351,,"'<,'>q"
+:setlocal foldmethod=manual
+|2,0,1663408202,,"setlocal foldmethod=manual"
+:foldmethod
+|2,0,1663408033,,"foldmethod"
+:help autocmd-events
+|2,0,1663407739,,"help autocmd-events"
+:tabf /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/cost_function.py
+|2,0,1663167520,,"tabf /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/cost_function.py"
+:tabf /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/base.py
+|2,0,1663167082,,"tabf /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/base.py"
+:tabn /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/base.py
+|2,0,1663167078,,"tabn /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/base.py"
+:setlocal foldlevel=99
+|2,0,1663160296,,"setlocal foldlevel=99"
+:setlocal foldmethod=indent
+|2,0,1663160231,,"setlocal foldmethod=indent"
+:setlocal foldlevel=0
+|2,0,1663160226,,"setlocal foldlevel=0"
+:setlocal foldmethod=syntax
+|2,0,1663159990,,"setlocal foldmethod=syntax"
+:setlocal foldmethod=indent 
+|2,0,1663159733,,"setlocal foldmethod=indent "
+::setlocal foldmethod=indent 
+|2,0,1663159728,,":setlocal foldmethod=indent "
+:help folding
+|2,0,1663159592,,"help folding"
+:set foldmethod=syntax
+|2,0,1663159568,,"set foldmethod=syntax"
+:tabf /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/energy_model.py
+|2,0,1663106182,,"tabf /home/polzovatel/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/energy_model.py"
 :set tags?
 |2,0,1662993963,,"set tags?"
 :echo join(tagfiles(), ',')
@@ -44,8 +102,6 @@
 |2,0,1662992491,,"echo tags"
 :echo g:tags
 |2,0,1662992479,,"echo g:tags"
-:qa
-|2,0,1662991774,,"qa"
 :tabf /home/polzovatel/projects/epoch/citylearn/local_evaluation.py
 |2,0,1662991316,,"tabf /home/polzovatel/projects/epoch/citylearn/local_evaluation.py"
 :!ls
@@ -58,28 +114,108 @@
 |2,0,1662644832,,"wqa"
 :!
 |2,0,1662581037,,"!"
-:!tree ..
-|2,0,1662571075,,"!tree .."
-:!ls data
-|2,0,1662571061,,"!ls data"
-:Q
-|2,0,1662205952,,"Q"
 
 # Search String History (newest to oldest):
-?/tag
-|2,1,1662991489,47,"tag"
-?/net_electricity_consumption_price
-|2,1,1662985480,47,"net_electricity_consumption_price"
+?/lossMode
+|2,1,1665864772,47,"lossMode"
+?/base_lo
+|2,1,1665864737,47,"base_lo"
+?/lossCri
+|2,1,1665862788,47,"lossCri"
+?/optim
+|2,1,1665861291,47,"optim"
+?/vis
+|2,1,1665820415,47,"vis"
+?/scalesD
+|2,1,1665812246,47,"scalesD"
+?/addS
+|2,1,1665811672,47,"addS"
+?/forward_ca
+|2,1,1665699134,47,"forward_ca"
+?/class
+|2,1,1665698574,47,"class"
+?/print
+|2,1,1665699333,47,"print"
+?/ope:q
+|2,1,1665652204,47,"ope:q"
+?/prin
+|2,1,1665652182,47,"prin"
+?/cout
+|2,1,1665585357,47,"cout"
+?/intersectLineTriangle
+|2,1,1665522937,47,"intersectLineTriangle"
+?/Ray
+|2,1,1665415527,47,"Ray"
+?/Plane
+|2,1,1665414478,47,"Plane"
+?/k
+|2,1,1665413757,47,"k"
+?/intersectRayWithPlane
+|2,1,1665413577,47,"intersectRayWithPlane"
+?/groupScaleZero
+|2,1,1665320166,47,"groupScaleZero"
+?/DNet
+|2,1,1665319924,47,"DNet"
+?/res
+|2,1,1664390950,47,"res"
+?/CG
+|2,1,1664050787,47,"CG"
+?/pars
+|2,1,1663628147,47,"pars"
+?/com
+|2,1,1663611068,47,"com"
+?/mesh
+|2,1,1663511521,47,"mesh"
+?/drawM
+|2,1,1663511517,47,"drawM"
+?/trans
+|2,1,1663453293,47,"trans"
+?/m_solu
+|2,1,1663452223,47,"m_solu"
+?/reference
+|2,1,1663450290,47,"reference"
+?/drawTrgt
+|2,1,1663440867,47,"drawTrgt"
+?/drawTr
+|2,1,1663440468,47,"drawTr"
+?/anim
+|2,1,1663409544,47,"anim"
+?/self
+|2,1,1663160257,47,"self"
+?/self.done
+|2,1,1663159182,47,"self.done"
+?/time_
+|2,1,1663158946,47,"time_"
+?/next_
+|2,1,1663158823,47,"next_"
+?/self.ne
+|2,1,1663158768,47,"self.ne"
+?/eva
+|2,1,1663113040,47,"eva"
 ?/eval
-|2,1,1662985442,47,"eval"
-?/Tree
-|2,1,1662632785,47,"Tree"
-?/statis
-|2,1,1662581058,47,"statis"
-?/glob
-|2,1,1662570427,47,"glob"
-?/aut
-|2,1,1661775821,47,"aut"
+|2,1,1663112995,47,"eval"
+?/__ini
+|2,1,1663111577,47,"__ini"
+?/__soc
+|2,1,1663110999,47,"__soc"
+?/soc_in
+|2,1,1663110987,47,"soc_in"
+?/soc_init
+|2,1,1663110925,47,"soc_init"
+?/get
+|2,1,1663109053,47,"get"
+?/argmaxgtg
+|2,1,1663108660,47,"argmaxgtg"
+?/deta
+|2,1,1663108609,47,"deta"
+?/__load(
+|2,1,1663107187,47,"__load("
+?/self.reward_fun
+|2,1,1663107169,47,"self.reward_fun"
+?/reward_func
+|2,1,1663107152,47,"reward_func"
+?/pdb
+|2,1,1663106473,47,"pdb"
 
 # Expression History (newest to oldest):
 
@@ -88,45 +224,48 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	"set tags=$HOME/ctags/tags;/
-|3,0,0,1,1,0,1662994121,"\"set tags=$HOME/ctags/tags;/"
+"0	CHAR	0
+	cv2.resize(self.img_or, (self.img_side, self.img_side), interpolation = cv2.INTER_AREA)
+	
+|3,0,0,0,2,0,1665821091,"cv2.resize(self.img_or, (self.img_side, self.img_side), interpolation = cv2.INTER_AREA)",""
 "1	LINE	0
-	"set tags=tags;/
-|3,0,1,1,1,0,1662993777,"\"set tags=tags;/"
+	        dl = DataLoader(self.ds, batch_size=4, shuffle=True)
+|3,0,1,1,1,0,1665818968,"        dl = DataLoader(self.ds, batch_size=4, shuffle=True)"
 "2	LINE	0
-	"$HOME/ctags/*
-|3,0,2,1,1,0,1662992877,"\"$HOME/ctags/*"
+	        self.img = cv2.resize(self.img_or, (self.img_side, self.img_side), interpolation = cv2.INTER_AREA)
+|3,0,2,1,1,0,1665818659,"        self.img = cv2.resize(self.img_or, (self.img_side, self.img_side), interpolation = cv2.INTER_AREA)"
 "3	LINE	0
-	        Vector3 res = mul(m, d); 
-|3,0,3,1,1,0,1662830790,"        Vector3 res = mul(m, d); "
+	                pass
+|3,0,3,1,1,0,1665816502,"                pass"
 "4	LINE	0
-	    return Matrix3 {};
-|3,0,4,1,1,0,1662830662,"    return Matrix3 {};"
+	        return ganmodel
+|3,0,4,1,1,0,1665767613,"        return ganmodel"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1662830661,""
+|3,0,5,1,1,0,1665767596,""
 "6	LINE	0
-	    
-|3,0,6,1,1,0,1662830661,"    "
+	        self.ganmodel = ProgressiveGAN(useGPU=True,
+	                             storeAVG=True)
+|3,0,6,1,2,0,1665767594,"        self.ganmodel = ProgressiveGAN(useGPU=True,","                             storeAVG=True)"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1662640479,""
+	        ganmodel = ProgressiveGAN(useGPU=True,
+	                             storeAVG=True)
+|3,0,7,1,2,0,1665767567,"        ganmodel = ProgressiveGAN(useGPU=True,","                             storeAVG=True)"
 "8	LINE	0
-	    return 0.0f;
-|3,0,8,1,1,0,1662640479,"    return 0.0f;"
+	            print('a')
+|3,0,8,1,1,0,1665699679,"            print('a')"
 "9	LINE	0
-	    // Your solution goes here
-|3,0,9,1,1,0,1662640472,"    // Your solution goes here"
+	            import pdb;pdb.set_trace()
+|3,0,9,1,1,0,1665699677,"            import pdb;pdb.set_trace()"
 ""-	CHAR	0
-	;
-|3,1,36,0,1,0,1662994925,";"
+	git@github.com:magisterbrown/pytorch_GAN_zoo_xla.git
+|3,1,36,0,1,0,1665854356,"git@github.com:magisterbrown/pytorch_GAN_zoo_xla.git"
 
 # File marks:
 '0  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
 |4,48,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
-'1  118  0  ~/.local/share/chezmoi/dot_vim/vimrc
-|4,49,118,0,1662995325,"~/.local/share/chezmoi/dot_vim/vimrc"
+'1  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
+|4,49,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
 '2  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
 |4,50,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
 '3  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
@@ -141,16 +280,12 @@
 |4,55,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
 '8  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
 |4,56,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
-'9  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
-|4,57,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
+'9  124  0  ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/networks/DCGAN_nets.py
+|4,57,124,0,1665876745,"~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/networks/DCGAN_nets.py"
 
 # Jumplist (newest first):
 -'  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
 |4,39,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
--'  118  0  ~/.local/share/chezmoi/dot_vim/vimrc
-|4,39,118,0,1662995325,"~/.local/share/chezmoi/dot_vim/vimrc"
--'  1  0  ~/.local/share/chezmoi/dot_vim/vimrc
-|4,39,1,0,1662995322,"~/.local/share/chezmoi/dot_vim/vimrc"
 -'  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
 |4,39,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
 -'  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
@@ -339,131 +474,1068 @@
 |4,39,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
 -'  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
 |4,39,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
--'  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
-|4,39,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
--'  21  0  ~/projects/kaggle/bundesliga/budespack/data/original.py
-|4,39,21,0,1914337434,"~/projects/kaggle/bundesliga/budespack/data/original.py"
--'  10  0  ~/projects/epoch/citylearn/agents/user_agent.py
-|4,39,10,0,1662994960,"~/projects/epoch/citylearn/agents/user_agent.py"
+-'  124  0  ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/networks/DCGAN_nets.py
+|4,39,124,0,1665876745,"~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/networks/DCGAN_nets.py"
+-'  6  49  ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/progressive_gan.py
+|4,39,6,49,1665867028,"~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/progressive_gan.py"
+-'  1  0  ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/progressive_gan.py
+|4,39,1,0,1665867012,"~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/progressive_gan.py"
+-'  25  0  ~/projects/kaggle/monet/NERD_tree_1
+|4,39,25,0,1665867012,"~/projects/kaggle/monet/NERD_tree_1"
+-'  45  2  ~/projects/kaggle/monet/NERD_tree_1
+|4,39,45,2,1665867009,"~/projects/kaggle/monet/NERD_tree_1"
 
 # History of marks within files (newest to oldest):
 
-> ~/.local/share/chezmoi/dot_vim/vimrc
-	*	1662995322	0
-	"	118	0
+> ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/networks/DCGAN_nets.py
+	*	1665867043	0
+	"	124	0
 
-> ~/projects/epoch/citylearn/agents/user_agent.py
-	*	1662994958	0
-	"	10	0
+> ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/progressive_gan.py
+	*	1665867027	0
+	"	6	49
+	.	24	0
+	+	24	0
 
-> ~/projects/epoch/citylearn/agents/orderenforcingwrapper.py
-	*	1662994956	0
-	"	2	30
+> ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/base_GAN.py
+	*	1665867013	0
+	"	31	15
+	^	278	54
+	.	279	0
+	+	278	37
+	+	279	21
+	+	278	0
+	+	279	0
 
-> ~/projects/epoch/citylearn/local_evaluation.py
-	*	1662994945	0
-	"	11	0
+> ~/projects/kaggle/monet/NERD_tree_1
+	*	1665867012	0
+	"	25	0
+	.	1	0
+	+	1	0
 
-> ~/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/citylearn.py
-	*	1662994938	0
-	"	18	0
+> ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/loss_criterions/base_loss_criterions.py
+	*	1665867001	0
+	"	43	0
 
-> ~/.vim/vimrc
-	*	1662994925	0
-	"	118	37
-	^	118	39
-	.	118	37
-	+	119	0
-	+	117	15
-	+	117	16
-	+	117	26
-	+	119	0
-	+	117	0
-	+	118	37
+> ~/projects/kaggle/monet/.gitmodules
+	*	1665854359	0
+	"	3	62
+	^	3	63
+	.	3	62
+	+	3	62
 
-> ~/projects/epoch/citylearn/agents/rbc_agent.py
-	*	1662994798	0
-	"	21	0
+> ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/models/networks/progressive_conv_net.py
+	*	1665853636	0
+	"	14	21
+	.	366	0
+	+	334	0
+	+	366	0
 
-> ~/projects/epoch/citylearn/rewards/user_reward.py
-	*	1662994779	0
-	"	9	0
+> ~/projects/kaggle/monet/monart/datasets/mockds.py
+	*	1665853574	0
+	"	38	19
+	^	21	40
+	.	21	39
+	+	1	28
+	+	11	23
+	+	14	9
+	+	2	9
+	+	13	28
+	+	14	70
+	+	4	17
+	+	14	0
+	+	4	0
+	+	14	75
+	+	3	17
+	+	14	39
+	+	22	60
+	+	19	0
+	+	20	27
+	+	22	18
+	+	27	22
+	+	27	55
+	+	27	15
+	+	40	7
+	+	22	19
+	+	27	0
+	+	41	22
+	+	22	0
+	+	24	0
+	+	29	17
+	+	28	3
+	+	32	13
+	+	34	15
+	+	26	0
+	+	24	8
+	+	25	30
+	+	27	15
+	+	25	29
+	+	37	20
+	+	20	18
+	+	22	40
+	+	37	24
+	+	22	0
+	+	38	0
+	+	21	39
 
-> ~/projects/epoch/citylearn/NERD_tree_1
-	*	1662994638	0
+> ~/projects/kaggle/monet/monart/training/trainer.py
+	*	1665835391	0
+	"	37	8
+	^	35	26
+	.	9	44
+	+	25	0
+	+	1	0
+	+	6	0
+	+	2	11
+	+	22	11
+	+	11	7
+	+	3	10
+	+	11	11
+	+	22	0
+	+	9	35
+	+	11	0
+	+	9	12
+	+	17	28
+	+	30	22
+	+	16	17
+	+	31	38
+	+	32	15
+	+	4	5
+	+	18	42
+	+	18	10
+	+	30	41
+	+	19	52
+	+	32	63
+	+	18	25
+	+	19	11
+	+	22	7
+	+	25	21
+	+	36	8
+	+	25	7
+	+	5	39
+	+	6	0
+	+	32	37
+	+	32	0
+	+	18	0
+	+	12	12
+	+	13	0
+	+	12	0
+	+	13	0
+	+	15	0
+	+	10	24
+	+	19	16
+	+	25	0
+	+	24	34
+	+	24	25
+	+	25	0
+	+	30	38
+	+	25	16
+	+	25	0
+	+	24	0
+	+	22	25
+	+	25	0
+	+	29	4
+	+	22	0
+	+	23	11
+	+	20	21
+	+	21	26
+	+	22	22
+	+	26	16
+	+	22	15
+	+	26	16
+	+	27	41
+	+	28	55
+	+	9	46
+	+	35	25
+	+	9	44
+
+> ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/visualization/visualizer.py
+	*	1665821491	0
+	"	23	53
+	^	23	54
+	.	23	53
+	+	10	0
+	+	8	27
+	+	21	48
+	+	23	53
+
+> ~/projects/kaggle/monet/NERD_tree_3
+	*	1665821298	0
+	"	39	18
+	.	1	0
+	+	1	0
+
+> ~/projects/kaggle/monet/NERD_tree_4
+	*	1665818563	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~/projects/kaggle/monet/main.py
+	*	1665816707	0
+	"	17	4
+	^	17	5
+	.	17	4
+	+	8	14
+	+	1	39
+	+	8	0
+	+	6	0
+	+	8	13
+	+	9	4
+	+	14	0
+	+	2	45
+	+	14	4
+	+	10	18
+	+	1	12
+	+	2	12
+	+	3	43
+	+	10	4
+	+	11	5
+	+	9	4
+	+	11	4
+	+	9	5
+	+	11	4
+	+	4	38
+	+	11	4
+	+	12	4
+	+	11	4
+	+	5	40
+	+	11	4
+	+	13	19
+	+	16	5
+	+	17	4
+	+	16	4
+	+	17	4
+
+> ~/projects/kaggle/monet/main.
+	*	1665816698	0
+	"	1	0
+
+> ~/projects/kaggle/monet/call.sh
+	*	1665816692	0
+	"	1	0
+	^	3	1
+	.	3	0
+	+	1	50
+	+	2	32
+	+	1	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	3	75
+	+	2	0
+	+	3	0
+
+> ~/projects/kaggle/monet/monart/training/generator.py
+	*	1665813532	0
+	"	6	11
+	^	6	12
+	.	6	11
+	+	3	11
+	+	6	11
+
+> ~/projects/kaggle/monet/monart/training/NERD_tree_1
+	*	1665813449	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/projects/kaggle/monet/NERD_tree_2
+	*	1665811424	0
 	"	4	0
 	.	1	0
 	+	1	0
 
-> ~/projects/epoch/citylearn/.gitignore
-	*	1662993900	0
-	"	151	3
-	^	151	4
-	.	151	3
-	+	151	3
+> ~/projects/kaggle/monet/commands/train_pgan.py
+	*	1665767763	0
+	"	17	43
+	^	17	44
+	.	17	43
+	+	16	15
+	+	9	54
+	+	18	43
+	+	4	11
+	+	18	52
+	+	16	8
+	+	17	43
 
-> ~/ctags/gen_ctags.sh
-	*	1662993345	0
-	"	2	73
-	^	2	74
-	.	2	73
-	+	1	6
-	+	2	73
-
-> ~/projects/epoch/citylearn/agents/NERD_tree_1
-	*	1662991763	0
-	"	14	2
+> ~/projects/kaggle/monet/monart/training/NERD_tree_2
+	*	1665699411	0
+	"	25	0
 	.	1	0
 	+	1	0
 
-> ~/projects/epoch/citylearn/agents/local_evaluation.py
-	*	1662991214	0
+> ~/projects/uni/cg/assignment4/src/ray_tracing.cpp
+	*	1665665348	0
+	"	85	0
+	^	56	67
+	.	4	0
+	+	174	20
+	+	179	9
+	+	176	21
+	+	177	27
+	+	186	14
+	+	177	28
+	+	170	0
+	+	171	12
+	+	172	12
+	+	164	8
+	+	165	0
+	+	166	8
+	+	177	27
+	+	186	15
+	+	155	67
+	+	4	1
+	+	9	1
+	+	155	0
+	+	169	0
+	+	175	0
+	+	186	17
+	+	175	25
+	+	174	0
+	+	175	0
+	+	174	0
+	+	175	0
+	+	174	7
+	+	174	22
+	+	186	0
+	+	174	0
+	+	174	21
+	+	174	23
+	+	177	26
+	+	177	28
+	+	177	46
+	+	176	22
+	+	178	0
+	+	177	28
+	+	176	22
+	+	177	0
+	+	177	27
+	+	186	14
+	+	177	0
+	+	186	4
+	+	100	27
+	+	94	31
+	+	180	30
+	+	185	16
+	+	180	25
+	+	184	0
+	+	183	18
+	+	186	0
+	+	174	0
+	+	126	42
+	+	127	41
+	+	129	17
+	+	127	26
+	+	128	42
+	+	129	30
+	+	130	39
+	+	131	58
+	+	133	33
+	+	137	20
+	+	139	37
+	+	140	31
+	+	139	31
+	+	141	28
+	+	126	26
+	+	130	26
+	+	126	43
+	+	128	31
+	+	126	55
+	+	126	24
+	+	130	24
+	+	119	0
+	+	118	0
+	+	117	44
+	+	126	25
+	+	130	25
+	+	126	40
+	+	130	37
+	+	142	14
+	+	94	0
+	+	100	0
+	+	141	5
+	+	142	15
+	+	141	4
+	+	142	14
+	+	125	43
+	+	135	43
+	+	56	107
+	+	56	0
+	+	57	0
+	+	56	84
+	+	56	27
+	+	56	55
+	+	56	28
+	+	56	0
+	+	9	0
+	+	4	0
+	m	64	25
+
+> ~/projects/uni/cg/assignment4/src/ray_tracing.
+	*	1665664074	0
 	"	1	0
 
-> ~/projects/epoch/citylearn/agents/random_agent.py
-	*	1662985929	0
-	"	16	0
+> ~/projects/kaggle/monet/commands/basic_sub.py
+	*	1665652587	0
+	"	1	34
+	^	17	16
+	.	17	15
+	+	17	0
+	+	16	0
+	+	12	50
+	+	13	0
+	+	17	15
 
-> ~/projects/uni/cg/assignment1/src/main.cpp
-	*	1662831613	0
-	"	65	32
-	^	65	33
-	.	65	32
-	+	75	0
+> ~/projects/kaggle/monet/commands/NERD_tree_1
+	*	1665652542	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/projects/kaggle/monet/submodules/pytorch_GAN_zoo_xla/NERD_tree_1
+	*	1665603669	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/projects/uni/cg/glm/glm/gtx/intersect.hpp
+	*	1665522941	0
+	"	89	6
+
+> ~/projects/uni/cg/assignment4/CMakeLists.txt
+	*	1665520526	0
+	"	3	26
+	^	3	27
+	.	3	26
+	+	3	26
+
+> ~/projects/uni/cg/assignment4/src/scene.h
+	*	1665417209	0
+	"	7	20
+
+> ~/projects/uni/cg/assignment4/src/NERD_tree_1
+	*	1665414495	0
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~/projects/uni/cg/assignment4/src/ray_tracing.h
+	*	1665414492	0
+	"	1	0
+
+> ~/projects/uni/cg/assignment4/src/main.cpp
+	*	1665414478	0
+	"	54	0
+
+> ~/projects/uni/cg/assignment4/src/draw.h
+	*	1665414464	0
+	"	1	0
+
+> ~/Documents/warming_bs.py
+	*	1665320052	0
+	"	1	34
+	^	1	35
+	.	1	34
+	+	1	34
+
+> ~/projects/kaggle/monet/setup.py
+	*	1665263083	0
+	"	47	31
+	^	47	32
+	.	47	31
+	+	49	5
+	+	40	17
+	+	28	8
+	+	28	0
+	+	36	43
+	+	38	21
+	+	1	0
+	+	5	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	40	0
+	+	39	0
+	+	40	0
+	+	32	28
+	+	32	40
+	+	32	0
+	+	46	22
+	+	32	27
+	+	32	0
+	+	32	38
+	+	48	0
+	+	47	63
+	+	32	29
+	+	47	63
+	+	47	97
+	+	47	67
+	+	47	70
+	+	47	69
+	+	5	0
+	+	30	24
+	+	32	29
+	+	30	25
+	+	31	11
+	+	32	0
+	+	31	26
+	+	32	0
+	+	47	31
+
+> ~/projects/kaggle/monet/tt.py
+	*	1665262993	0
+	"	5	0
+	^	10	4
+	.	23	0
+	+	25	0
+	+	25	16
+	+	25	34
+	+	2	15
+	+	2	26
+	+	24	22
+	+	2	22
+	+	3	15
+	+	24	36
+	+	3	0
+	+	24	0
+	+	24	13
+	+	25	20
+	+	25	19
+	+	5	21
+	+	6	61
+	+	11	0
+	+	16	23
+	+	18	40
+	+	23	0
+	+	14	0
+	+	23	0
+	+	18	17
+	+	22	31
+	+	18	11
+	+	19	20
+	+	22	15
+	+	18	8
+	+	19	4
+	+	19	0
+	+	20	8
+	+	19	0
+	+	22	15
+	+	16	21
+	+	22	15
+	+	22	23
+	+	18	21
+	+	22	0
+	+	21	0
+	+	24	4
+	+	25	4
+	+	24	33
+	+	21	27
+	+	16	15
+	+	24	0
+	+	25	0
+	+	8	56
+	+	10	12
+	+	9	0
+	+	10	0
+	+	9	68
+	+	10	4
+	+	11	0
+	+	23	0
+
+> ~/ctags/gen_ctags.sh
+	*	1665094502	0
+	"	3	10
+	^	3	11
+	.	3	10
+	+	1	6
+	+	2	73
+	+	3	10
+
+> ~/projects/kaggle/monet/commands/eval_monet.py
+	*	1664815178	0
+	"	16	8
+	^	16	51
+	.	16	0
+	+	1	0
+	+	7	0
+	+	6	0
+	+	7	14
+	+	10	0
+	+	9	0
+	+	10	0
+	+	9	79
+	+	11	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	15	45
+	+	16	30
+	+	3	17
+	+	11	39
+	+	4	10
+	+	15	41
+	+	5	0
+	+	16	8
+	+	16	30
+	+	16	0
+
+> ~/projects/kaggle/monet/monart/loss/fid.py
+	*	1664815074	0
+	"	28	4
+	.	28	0
+	+	4	25
+	+	2	17
+	+	10	11
+	+	1	26
+	+	6	39
+	+	10	22
+	+	6	18
+	+	7	0
+	+	8	0
+	+	10	0
+	+	9	0
+	+	29	21
+	+	41	75
+	+	42	0
+	+	12	45
+	+	13	32
+	+	19	13
+	+	14	45
+	+	12	53
+	+	15	54
+	+	18	33
+	+	15	0
+	+	18	5
+	+	18	0
+	+	18	30
+	+	15	20
+	+	18	0
+	+	15	8
+	+	18	0
+	+	17	155
+	+	17	90
+	+	17	0
+	+	17	104
+	+	15	36
+	+	28	0
+	+	29	0
+	+	28	0
+
+> ~/projects/kaggle/monet/commands/rate_submission.py
+	*	1664815057	0
+	"	4	0
+	^	10	32
+	.	10	31
+	+	1	0
+	+	16	0
+	+	16	76
+	+	17	77
+	+	16	79
+	+	17	19
+	+	20	35
+	+	24	35
+	+	29	21
+	+	30	11
+	+	24	48
+	+	30	19
+	+	47	0
+	+	30	23
+	+	4	18
+	+	24	60
+	+	25	44
+	+	5	13
+	+	25	39
+	+	20	13
+	+	30	35
+	+	25	12
+	+	30	38
+	+	45	0
+	+	35	14
+	+	37	62
+	+	45	16
+	+	36	30
+	+	1	1
+	+	4	0
+	+	3	17
+	+	6	30
+	+	45	26
+	+	45	21
+	+	31	53
+	+	33	21
+	+	33	28
+	+	36	0
+	+	35	26
+	+	34	25
+	+	38	32
+	+	34	18
+	+	38	21
+	+	45	0
+	+	42	20
+	+	7	51
+	+	33	0
+	+	30	0
+	+	39	42
+	+	33	22
+	+	42	12
+	+	39	12
+	+	26	20
+	+	8	0
+	+	26	36
+	+	11	11
+	+	41	33
+	+	41	36
+	+	33	0
+	+	32	23
+	+	41	30
+	+	43	21
+	+	41	0
+	+	9	0
+	+	40	42
+	+	9	18
+	+	40	41
+	+	43	33
+	+	45	26
+	+	43	30
+	+	42	0
+	+	45	0
+	+	27	8
+	+	27	29
+	+	24	10
+	+	27	31
+	+	28	17
+	+	12	10
+	+	28	23
+	+	27	76
+	+	28	29
+	+	10	34
+	+	28	0
+	+	44	40
+	+	45	0
+	+	28	0
+	+	18	0
+	+	17	79
+	+	18	45
+	+	23	0
+	+	21	19
+	+	23	33
+	+	44	17
+	+	10	31
+
+> ~/projects/kaggle/monet/commands/rand_sub.py
+	*	1664490327	0
+	"	6	0
+	^	3	14
+	.	3	13
+	+	7	0
+	+	8	1
+	+	9	2
+	+	10	1
+	+	8	0
+	+	9	1
+	+	10	1
+	+	11	2
+	+	8	0
+	+	21	25
+	+	21	16
+	+	21	0
+	+	13	0
+	+	15	0
+	+	14	0
+	+	3	13
+
+> ~/projects/kaggle/monet/m
+	*	1664490260	0
+	"	1	0
+
+> ~/projects/kaggle/monet/commands/pic_submission.py
+	*	1664392279	0
+	"	26	0
+	^	23	15
+	.	27	0
+	+	1	0
+	+	8	0
+	+	7	0
+	+	8	8
+	+	10	72
+	+	12	0
+	+	10	75
+	+	18	20
+	+	27	11
+	+	5	8
+	+	26	0
+	+	13	14
+	+	17	8
+	+	13	50
+	+	17	0
+	+	13	12
+	+	19	38
+	+	11	8
+	+	10	75
+	+	14	41
+	+	22	15
+	+	4	12
+	+	22	36
+	+	26	17
+	+	26	20
+	+	14	46
+	+	16	0
+	+	15	0
+	+	6	9
+	+	23	48
+	+	3	13
+	+	2	31
+	+	26	21
+	+	24	0
+	+	26	0
+	+	23	14
+	+	26	0
+	+	27	0
+
+> ~/projects/kaggle/monet/your_code_here.h
+	*	1664143563	0
+	"	1	0
+
+> ~/projects/kaggle/monet/commands/monet_to_vec.py
+	*	1664142755	0
+	"	8	0
+	^	25	16
+	.	9	0
+	+	1	0
+	+	10	27
+	+	12	0
+	+	11	23
+	+	12	0
+	+	13	46
+	+	12	49
+	+	15	37
+	+	7	48
+	+	8	49
+	+	20	39
+	+	21	65
+	+	16	19
+	+	21	69
+	+	17	36
+	+	24	24
+	+	26	16
+	+	25	43
+	+	22	20
+	+	23	0
+	+	26	50
+	+	28	17
+	+	27	0
+	+	30	15
+	+	31	47
+	+	15	51
+	+	12	68
+	+	29	16
+	+	4	8
+	+	25	55
+	+	5	18
+	+	31	33
+	+	29	0
+	+	9	48
+	+	26	0
+	+	25	15
+	+	9	0
+
+> ~/projects/kaggle/monet/monart/process/est_ception.py
+	*	1664142730	0
+	"	38	34
+	^	38	35
+	.	38	34
+	+	41	0
+	+	39	0
+	+	34	31
+	+	40	13
+	+	39	0
+	+	33	0
+	+	33	9
+	+	39	0
+	+	33	0
+	+	3	0
+	+	3	11
+	+	34	47
+	+	39	0
+	+	35	0
+	+	39	22
+	+	40	13
+	+	3	9
+	+	5	43
+	+	6	15
+	+	7	0
+	+	9	24
+	+	11	13
+	+	36	34
+	+	19	0
+	+	18	0
+	+	20	0
+	+	22	0
+	+	26	13
+	+	14	0
+	+	17	0
+	+	35	0
+	+	39	0
+	+	37	29
+	+	39	0
+	+	9	23
+	+	20	31
+	+	29	3
+	+	29	0
+	+	31	4
+	+	32	13
+	+	39	0
+	+	38	34
+
+> ~/projects/uni/cg/assignment2/solar_system/src/your_code_here.h
+	*	1664124018	0
+	"	61	0
+	^	84	10
+	.	84	8
+	+	80	22
+	+	73	16
+	+	80	22
+	+	73	46
+	+	68	37
+	+	73	76
+	+	73	32
+	+	80	11
+	+	85	0
+	+	73	33
+	+	80	33
+	+	81	0
+	+	80	39
+	+	80	0
+	+	80	54
+	+	73	30
+	+	80	13
 	+	72	0
-	+	71	9
-	+	66	0
-	+	67	30
-	+	70	7
-	+	67	23
-	+	70	16
-	+	67	8
-	+	71	0
-	+	68	0
-	+	70	19
-	+	68	34
-	+	70	19
-	+	70	0
-	+	72	8
-	+	68	34
-	+	64	26
-	+	65	26
-	+	66	26
-	+	64	29
-	+	65	29
-	+	66	30
-	+	64	32
-	+	65	33
-	+	66	33
-	+	70	0
-	+	69	31
-	+	65	26
-	+	66	26
-	+	65	32
+	+	73	26
+	+	72	0
+	+	73	0
+	+	82	0
+	+	80	0
+	+	74	59
+	+	83	68
+	+	84	54
+	+	80	72
+	+	80	45
+	+	80	29
+	+	80	90
+	+	80	0
+	+	80	47
+	+	69	15
+	+	83	8
+	+	80	58
+	+	80	57
+	+	82	0
+	+	84	9
+	+	80	0
+	+	76	0
+	+	77	26
+	+	78	26
+	+	84	9
+	+	80	21
+	+	84	8
+	+	75	20
+	+	80	20
+	+	75	21
+	+	80	0
+	+	83	9
+	+	79	27
+	+	79	18
+	+	84	9
+	+	83	8
+	+	84	8
+
+> ~/projects/uni/cg/assignment3/src/your_code_here.h
+	*	1664115578	0
+	"	138	37
+	^	138	38
+	.	138	37
+	+	62	27
+	+	58	57
+	+	59	13
+	+	60	31
+	+	58	58
+	+	57	23
+	+	58	25
+	+	57	56
+	+	58	35
+	+	59	11
+	+	61	0
+	+	62	51
+	+	57	0
+	+	58	0
+	+	57	58
+	+	59	11
+	+	57	74
+	+	58	42
+	+	72	74
+	+	76	42
+	+	72	34
+	+	75	35
+	+	76	90
+	+	77	35
+	+	71	74
+	+	77	47
+	+	78	0
+	+	79	0
+	+	77	75
+	+	75	17
+	+	76	90
+	+	75	16
+	+	74	16
+	+	73	0
+	+	74	30
+	+	62	44
+	+	87	72
+	+	88	19
+	+	89	55
+	+	94	0
+	+	91	31
+	+	93	72
+	+	62	44
+	+	78	44
+	+	95	0
+	+	96	0
+	+	102	120
+	+	103	120
+	+	105	0
+	+	90	23
+	+	106	48
+	+	107	63
+	+	105	70
+	+	106	47
+	+	105	70
+	+	104	43
+	+	106	38
+	+	107	0
+	+	106	30
+	+	104	44
+	+	107	43
+	+	106	0
+	+	107	24
+	+	107	0
+	+	116	47
+	+	107	0
+	+	127	59
+	+	127	4
+	+	127	0
+	+	125	0
+	+	126	62
+	+	127	47
+	+	126	63
+	+	137	0
+	+	134	0
+	+	135	38
+	+	137	68
+	+	136	57
+	+	138	37
 
 > ~/projects/uni/cg/assignment1/src/your_code_here.h
-	*	1662831500	0
-	"	226	33
+	*	1664053392	0
+	"	45	0
 	^	226	34
 	.	226	33
 	+	27	0
@@ -541,22 +1613,327 @@
 	+	230	0
 	+	226	33
 
-> ~/projects/uni/cg/assignment1/src/NERD_tree_1
-	*	1662830703	0
-	"	5	0
+> ~/projects/uni/cg/assignment3/framework/include/framework/opengl_includes.h
+	*	1664051061	0
+	"	15	12
+	^	15	13
+	.	15	12
+	+	15	12
+
+> ~/projects/uni/cg/assignment3/CMakeLists.txt
+	*	1664050787	0
+	"	16	48
+
+> ~/projects/kaggle/monet/monart/models/inception.py
+	*	1663884053	0
+	"	11	0
+	^	6	4
+	.	9	0
+	+	2	45
+	+	7	33
+	+	9	36
+	+	11	3
+	+	12	15
+	+	14	15
+	+	9	0
+	+	5	4
+	+	6	0
+	+	5	3
+	+	6	3
+	+	9	0
+
+> ~/projects/kaggle/monet/commands/NERD_tree_2
+	*	1663882992	0
+	"	11	0
 	.	1	0
 	+	1	0
 
-> ~/Downloads/your_code_here.h
-	*	1662830536	0
-	"	216	4
-	^	149	0
-	.	150	0
-	+	150	0
+> ~/projects/kaggle/monet/monart/NERD_tree_2
+	*	1663853670	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/projects/kaggle/monet/monart/NERD_tree_1
+	*	1663852592	0
+	"	9	2
+	.	1	0
+	+	1	0
+
+> ~/projects/kaggle/monet/submitters/rand_sub.py
+	*	1663628757	0
+	"	14	69
+	^	14	70
+	.	14	69
+	+	5	15
+	+	3	9
+	+	14	53
+	+	15	44
+	+	14	15
+	+	2	17
+	+	16	39
+	+	10	24
+	+	13	35
+	+	10	25
+	+	17	0
+	+	10	27
+	+	10	80
+	+	10	0
+	+	10	36
+	+	9	0
+	+	10	19
+	+	7	66
+	+	8	47
+	+	10	28
+	+	12	27
+	+	10	46
+	+	12	0
+	+	11	24
+	+	14	69
+
+> ~/projects/kaggle/monet/submitters/basic_sub.py
+	*	1663628722	0
+	"	13	56
+	^	13	57
+	.	13	56
+	+	14	0
+	+	14	50
+	+	2	13
+	+	6	12
+	+	9	12
+	+	10	19
+	+	5	37
+	+	7	58
+	+	8	28
+	+	9	65
+	+	6	8
+	+	9	12
+	+	10	12
+	+	14	0
+	+	12	36
+	+	5	29
+	+	13	56
+
+> ~/projects/uni/cg/assignment2/robot_arm/CMakeLists.txt
+	*	1663612727	0
+	"	5	0
+	^	6	0
+	.	5	27
+	+	5	27
+
+> ~/projects/uni/cg/assignment2/solar_system/src/main.cpp
+	*	1663611082	0
+	"	213	25
+
+> ~/projects/uni/cg/assignment2/solar_system/tests/solar_system_tests.cpp
+	*	1663611062	0
+	"	20	0
+
+> ~/projects/uni/cg/assignment2/solar_system/src/draw.h
+	*	1663611061	0
+	"	17	0
+
+> ~/projects/uni/cg/assignment2/solar_system/src/NERD_tree_2
+	*	1663611049	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/projects/uni/cg/assignment2/solar_system/src/NERD_tree_1
+	*	1663611034	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/projects/uni/cg/rerun/assignment1/src/your_code_here.h
+	*	1663523969	0
+	"	1	0
+	.	9	0
+	+	9	0
+
+> ~/projects/uni/cg/rerun2/assignment1/src/your_code_here.h
+	*	1663523832	0
+	"	1	0
+
+> ~/projects/uni/cg/assignment2/robot_arm/src/your_code_here.h
+	*	1663514177	0
+	"	244	21
+	^	244	34
+	.	251	0
+	+	162	48
+	+	166	5
+	+	169	4
+	+	166	17
+	+	162	0
+	+	166	37
+	+	168	0
+	+	166	24
+	+	162	50
+	+	166	24
+	+	162	50
+	+	166	33
+	+	162	69
+	+	166	26
+	+	186	29
+	+	167	55
+	+	166	0
+	+	169	0
+	+	183	53
+	+	162	48
+	+	167	37
+	+	184	60
+	+	185	68
+	+	187	29
+	+	184	25
+	+	187	29
+	+	184	24
+	+	184	0
+	+	189	4
+	+	199	0
+	+	196	55
+	+	199	39
+	+	200	0
+	+	195	30
+	+	196	61
+	+	195	24
+	+	197	16
+	+	198	16
+	+	197	39
+	+	198	42
+	+	199	44
+	+	206	0
+	+	204	0
+	+	205	0
+	+	204	0
+	+	205	0
+	+	206	40
+	+	203	55
+	+	206	37
+	+	203	54
+	+	206	44
+	+	203	57
+	+	202	23
+	+	203	61
+	+	202	17
+	+	238	41
+	+	249	0
+	+	238	21
+	+	245	17
+	+	250	0
+	+	245	0
+	+	250	0
+	+	249	0
+	+	246	0
+	+	245	0
+	+	246	19
+	+	217	44
+	+	219	21
+	+	246	0
+	+	239	9
+	+	246	8
+	+	246	9
+	+	246	11
+	+	239	43
+	+	239	20
+	+	239	0
+	+	246	8
+	+	246	22
+	+	249	8
+	+	246	38
+	+	245	8
+	+	240	0
+	+	241	0
+	+	240	21
+	+	241	21
+	+	240	42
+	+	241	42
+	+	247	0
+	+	248	0
+	+	247	36
+	+	248	36
+	+	249	0
+	+	243	34
+	+	244	32
+	+	245	97
+	+	244	33
+	+	246	0
+	+	237	0
+	+	249	0
+	+	251	0
+
+> ~/projects/uni/cg/assignment2/framework/include/framework/mesh.h
+	*	1663512641	0
+	"	37	13
+
+> ~/projects/uni/cg/assignment2/robot_arm/src/main.cpp
+	*	1663511812	0
+	"	18	20
+	^	8	0
+	.	8	0
+	+	8	0
+
+> ~/projects/uni/cg/assignment2/robot_arm/src/NERD_tree_1
+	*	1663511510	0
+	"	10	2
+	.	1	0
+	+	1	0
+
+> ~/projects/uni/cg/assignment1/CMakeLists.txt
+	*	1663506931	0
+	"	5	0
+	^	6	0
+	.	6	0
+	+	24	0
+	+	5	0
+	+	6	0
+
+> ~/projects/uni/cg/assignment2/robot_arm/src/reference_loader.h
+	*	1663453975	0
+	"	67	25
+
+> ~/projects/uni/cg/assignment2/robot_arm/src/NERD_tree_3
+	*	1663453296	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/projects/uni/cg/assignment2/robot_arm/src/NERD_tree_2
+	*	1663450344	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/vimrc
+	*	1663408608	0
+	"	125	0
+	.	125	0
+	+	119	0
+	+	117	15
+	+	117	16
+	+	117	26
+	+	119	0
+	+	117	0
+	+	118	37
+	+	121	33
+	+	125	21
+	+	126	0
+	+	123	0
+	+	125	3
+	+	123	32
+	+	125	0
+	+	122	20
+	+	125	18
+	+	123	0
+	+	122	20
+	+	124	44
+	+	122	0
+	+	124	0
+	+	123	0
+	+	125	0
 
 > ~/projects/kaggle/bundesliga/budespack/models/seq.py
-	*	1662675114	0
-	"	1	0
+	*	1663408169	0
+	"	10	0
 	.	14	0
 	+	57	3
 	+	8	6
@@ -566,43 +1943,13 @@
 	+	19	0
 	+	14	0
 
-> ~/projects/uni/cg/assignment1/CMakeLists.txt
-	*	1662639091	0
-	"	6	0
-	^	6	0
-	.	6	0
-	+	24	0
-	+	5	0
-	+	6	0
-
-> ~/projects/kaggle/bundesliga/budespack/data/writer.py
-	*	1662571444	0
-	"	6	17
-	^	6	18
-	.	6	17
-	+	42	27
-	+	32	0
-	+	34	0
-	+	32	8
-	+	32	0
-	+	33	0
-	+	1	9
-	+	3	8
-	+	4	53
-	+	8	0
-	+	10	65
-	+	13	25
-	+	28	25
-	+	14	40
-	+	31	30
-	+	38	39
-	+	7	0
-	+	5	47
-	+	6	17
+> /usr/share/vim/vim81/doc/autocmd.txt
+	*	1663407775	0
+	"	209	1
 
 > ~/projects/kaggle/bundesliga/budespack/saveds.py
-	*	1662571334	0
-	"	5	10
+	*	1663407445	0
+	"	20	0
 	^	5	11
 	.	5	10
 	+	9	45
@@ -619,101 +1966,337 @@
 	+	4	18
 	+	5	10
 
-> ~/projects/kaggle/bundesliga/budespack/NERD_tree_1
-	*	1662570145	0
-	"	12	0
+> ~/projects/uni/cg/assignment2/CMakeLists.txt
+	*	1663366132	0
+	"	16	0
+
+> ~/projects/uni/cg/assignment1/src/main.cpp
+	*	1663182429	0
+	"	50	11
+	^	40	87
+	.	40	86
+	+	75	0
+	+	72	0
+	+	71	9
+	+	66	0
+	+	67	30
+	+	70	7
+	+	67	23
+	+	70	16
+	+	67	8
+	+	71	0
+	+	68	0
+	+	70	19
+	+	68	34
+	+	70	19
+	+	70	0
+	+	72	8
+	+	68	34
+	+	64	26
+	+	65	26
+	+	66	26
+	+	64	29
+	+	65	29
+	+	66	30
+	+	64	32
+	+	65	33
+	+	66	33
+	+	70	0
+	+	69	31
+	+	65	26
+	+	66	26
+	+	65	32
+	+	34	0
+	+	29	22
+	+	30	21
+	+	31	22
+	+	30	23
+	+	32	22
+	+	40	86
+
+> ~/projects/uni/cg/assignment1/src/NERD_tree_1
+	*	1663182428	0
+	"	6	0
 	.	1	0
 	+	1	0
 
-> ~/projects/kaggle/bundesliga/budespack/data/torchds.py
-	*	1662570141	0
-	"	1	0
-	^	2	18
-	.	2	17
-	+	26	17
-	+	24	0
-	+	21	39
-	+	48	47
-	+	34	6
-	+	2	17
+> ~/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/building.py
+	*	1663169625	0
+	"	304	33
+	^	304	34
+	.	304	33
+	+	611	34
+	+	611	33
+	+	611	11
+	+	611	42
+	+	611	14
+	+	611	39
+	+	611	50
+	+	611	0
+	+	304	33
 
-> ~/projects/kaggle/bundesliga/budespack/data/original.py
-	*	1662398979	0
-	"	21	0
-	^	39	7
-	.	39	6
-	+	4	0
-	+	34	29
-	+	68	27
-	+	8	6
-	+	7	57
-	+	39	6
+> ~/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/citylearn.py
+	*	1663169365	0
+	"	750	27
+	^	209	34
+	.	209	33
+	+	459	8
+	+	460	0
+	+	459	8
+	+	793	0
+	+	450	19
+	+	456	10
+	+	456	11
+	+	458	0
+	+	456	11
+	+	458	0
+	+	456	34
+	+	458	26
+	+	456	27
+	+	455	21
+	+	458	0
+	+	457	20
+	+	460	43
+	+	456	35
+	+	456	31
+	+	454	34
+	+	456	19
+	+	454	0
+	+	456	0
+	+	455	28
+	+	456	25
+	+	455	0
+	+	456	32
+	+	209	33
 
-> ~/projects/kaggle/bundesliga/budespack/data/NERD_tree_1
-	*	1662398948	0
-	"	8	0
-	.	1	0
-	+	1	0
-
-> ~/projects/kaggle/bundesliga/ls
-	*	1662398933	0
-	"	1	0
-
-> ~/projects/kaggle/bundesliga/budespack/data/iterative.py
-	*	1662398927	0
-	"	22	31
-	^	30	12
-	.	30	11
-	+	10	38
-	+	30	11
-
-> ~/projects/kaggle/bundesliga/NERD_tree_1
-	*	1662378084	0
-	"	12	0
-	.	1	0
-	+	1	0
-
-> ~/projects/kaggle/bundesliga/budespack/training/loss.py
-	*	1662290167	0
-	"	1	0
-	^	8	21
-	.	8	20
-	+	8	20
-
-> ~/projects/kaggle/bundesliga/budespack/training/loop.py
-	*	1662289893	0
-	"	1	0
-	^	3	49
-	.	3	48
-	+	12	7
+> ~/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/cost_function.py
+	*	1663168290	0
+	"	210	33
+	^	210	34
+	.	210	33
+	+	205	19
+	+	205	32
+	+	206	37
+	+	214	33
+	+	214	8
+	+	205	0
 	+	2	11
-	+	5	0
-	+	3	48
+	+	214	0
+	+	204	0
+	+	204	24
+	+	213	58
+	+	206	12
+	+	212	0
+	+	208	45
+	+	209	47
+	+	207	0
+	+	209	21
+	+	204	0
+	+	212	0
+	+	208	45
+	+	209	12
+	+	208	41
+	+	209	12
+	+	212	0
+	+	208	0
+	+	213	69
+	+	211	19
+	+	208	0
+	+	210	33
 
-> ~/projects/kaggle/bundesliga/budespack/training/NERD_tree_1
-	*	1662206243	0
-	"	1	0
-	.	1	0
-	+	1	0
+> ~/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/base.py
+	*	1663167385	0
+	"	51	0
+	.	51	0
+	+	27	0
+	+	51	0
 
-> ~/projects/kaggle/bundesliga/budespack/training/lo
-	*	1662206223	0
-	"	1	0
+> ~/projects/epoch/citylearn/local_evaluation.py
+	*	1663167206	0
+	"	65	44
+	^	69	17
+	.	69	0
+	+	64	25
+	+	64	16
+	+	64	30
+	+	64	0
+	+	97	8
+	+	64	0
+	+	81	20
+	+	96	0
+	+	64	0
+	+	80	20
+	+	64	0
+	+	69	0
 
-> ~/projects/kaggle/bundesliga/budespack/models/NERD_tree_1
-	*	1662157569	0
+> ~/projects/epoch/citylearn/NERD_tree_2
+	*	1663159826	0
 	"	11	0
 	.	1	0
 	+	1	0
 
-> ~/.bashrc
-	*	1661776357	0
-	"	119	17
-	^	119	18
-	.	119	17
-	+	120	45
-	+	119	17
+> /usr/share/vim/vim81/doc/fold.txt
+	*	1663159810	0
+	"	268	58
 
-> ~/Repos/dotFiles/linkable/.bashrc
-	*	1661776328	0
+> ~/projects/epoch/citylearn/NERD_tree_1
+	*	1663158640	0
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~/projects/epoch/citylearn/rewards/get_reward.py
+	*	1663112973	0
+	"	36	0
+	^	35	29
+	.	36	0
+	+	36	34
+	+	36	0
+	+	42	0
+	+	40	69
+	+	44	31
+	+	3	11
+	+	36	51
+	+	36	19
+	+	40	47
+	+	46	20
+	+	36	0
+	+	36	29
+	+	46	0
+	+	39	4
+	+	35	0
+	+	29	19
+	+	31	39
+	+	32	43
+	+	34	29
+	+	35	27
+	+	29	10
+	+	35	28
+	+	36	0
+
+> ~/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/energy_model.py
+	*	1663112058	0
+	"	858	53
+	.	66	0
+	+	854	34
+	+	857	40
+	+	854	19
+	+	858	67
+	+	859	47
+	+	858	49
+	+	807	33
+	+	854	0
+	+	2	11
+	+	808	0
+	+	884	87
+	+	807	0
+	+	834	40
+	+	835	47
+	+	833	12
+	+	833	30
+	+	700	56
+	+	833	12
+	+	835	47
+	+	833	0
+	+	66	0
+
+> ~/projects/epoch/citylearn/rewards/user_reward.py
+	*	1663112050	0
+	"	29	0
+	^	8	12
+	.	8	11
+	+	34	0
+	+	30	65
+	+	31	89
+	+	30	37
+	+	32	73
+	+	33	79
+	+	39	0
+	+	37	22
+	+	8	11
+
+> ~/anaconda3/envs/citylearn/lib/python3.8/site-packages/citylearn/reward_function.py
+	*	1663109477	0
+	"	55	18
+	^	55	19
+	.	55	18
+	+	2	11
+	+	33	15
+	+	39	58
+	+	45	50
+	+	51	0
+	+	39	0
+	+	56	0
+	+	56	16
+	+	56	9
+	+	56	40
+	+	56	17
+	+	39	62
+	+	45	31
+	+	51	56
+	+	53	0
+	+	55	18
+
+> ~/projects/epoch/citylearn/aicrowd.json
+	*	1663107969	0
 	"	1	0
+
+> ~/projects/epoch/citylearn/agents/diff_agent.py
+	*	1663006433	0
+	"	17	0
+	^	21	31
+	.	17	0
+	+	38	66
+	+	4	7
+	+	25	9
+	+	38	18
+	+	17	30
+	+	20	36
+	+	22	0
+	+	2	0
+	+	21	30
+	+	17	0
+
+> ~/projects/epoch/citylearn/agents/rbc_agent.py
+	*	1663006432	0
+	"	2	0
+	.	2	0
+	+	2	11
+	+	19	0
+	+	2	0
+
+> ~/projects/epoch/citylearn/agents/user_agent.py
+	*	1663006431	0
+	"	11	20
+	^	11	21
+	.	11	20
+	+	3	38
+	+	11	20
+
+> ~/projects/epoch/citylearn/agents/orderenforcingwrapper.py
+	*	1663006429	0
+	"	14	0
+
+> ~/projects/epoch/citylearn/NERD_tree_5
+	*	1663005098	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/projects/epoch/citylearn/NERD_tree_7
+	*	1663004147	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/projects/epoch/citylearn/NERD_tree_6
+	*	1663004069	0
+	"	12	0
+	.	1	0
+	+	1	0
+
+> ~/projects/epoch/citylearn/NERD_tree_4
+	*	1663003451	0
+	"	19	2
+	.	1	0
+	+	1	0

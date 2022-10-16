@@ -117,3 +117,10 @@ map <Space>F <Plug>(easymotion-F)
 "set tags=$HOME/ctags/tags;/
 set tags=./tags;,tags,$HOME/ctags/tags
 set cpt-=t
+
+"Folding - works well with python"
+set foldmethod=indent
+"autocmd FileType python setlocal foldmethod=manual
+"autocmd BufReadPre setlocal foldmethod=indent
+set nofoldenable
+
