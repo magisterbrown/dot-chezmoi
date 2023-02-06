@@ -118,7 +118,10 @@ map <Space>F <Plug>(easymotion-F)
 set tags=./tags;,tags,$HOME/ctags/tags
 set cpt-=t
 
-"Folding - works well with python"
+"Open tag in the new tab
+nnoremap <C-[><C-]> <C-w><C-]><C-w><S-t>
+
+"Folding - works well with python
 set foldmethod=indent
 "autocmd FileType python setlocal foldmethod=manual
 "autocmd BufReadPre setlocal foldmethod=indent
