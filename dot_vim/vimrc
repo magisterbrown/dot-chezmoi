@@ -8,6 +8,7 @@ set nocompatible
 
 " Turn on syntax highlighting.
 syntax on
+set synmaxcol=200
 
 " Disable the default Vim startup message.
 set shortmess+=I
@@ -78,6 +79,9 @@ set smarttab
 set expandtab "Replace tab with spaces
 set softtabstop=4 "4 spaces in tab
 
+"Tab switch shortcuts
+nnoremap gr :tabprevious<CR>
+
 set autoindent 
 
 "syntax highlit for python"
@@ -103,6 +107,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'preservim/nerdtree'
     Plug 'tpope/vim-surround'
     Plug 'easymotion/vim-easymotion'
+    "Plug 'xolox/vim-misc'
+    "Plug 'xolox/vim-session'
 call plug#end()
 
 "Nerd tree shortcuts"
@@ -126,4 +132,20 @@ set foldmethod=indent
 "autocmd FileType python setlocal foldmethod=manual
 "autocmd BufReadPre setlocal foldmethod=indent
 set nofoldenable
+
+function SaveSes(path)
+    let s:saver = fnamemodify(getcwd(), ':t').'.vim'
+    NERDTreeClose
+    if empty(a:path)
+        execute 'mks! '.s:saver
+    elseif isdirectory(a:path)
+        execute 'mks! 'a:path.'/'.s:saver
+    else
+        execute 'mks! Session.vim'
+    endif
+    echo getcwd()
+endfunction
+"Commands
+:command -nargs=? Mkss :call  SaveSes(<q-args>)
+
 
