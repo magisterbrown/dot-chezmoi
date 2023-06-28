@@ -16,6 +16,9 @@ set shortmess+=I
 " Show line numbers.
 set number
 
+" Makes pasting normal.
+set paste
+
 "Relative numbers"
 set relativenumber
 
